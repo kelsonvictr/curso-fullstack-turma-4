@@ -1,0 +1,27 @@
+{
+  "alunos": [
+    {
+      "id": "1",
+      "nome": "Maria da Silva",
+      "email": "novo@email.com"
+    },
+    {
+      "id": "2",
+      "nome": "João da Silva",
+      "email": "joao@gmail.com"
+    },
+    {
+      "id": "3",
+      "nome": "José da Silva",
+      "email": "jose@gmail.com"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "c26f"
+    },
+    {
+      "id": "3ebc"
+    }
+  ]
+}
