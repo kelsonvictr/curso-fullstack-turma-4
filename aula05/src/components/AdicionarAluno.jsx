@@ -16,7 +16,7 @@ const AdicionarAluno = () => {
             email: email
         }
 
-        const response = await axios.post(`${urlDoBackend}/alunos`, dadosDoForm)
+        await axios.post(`${urlDoBackend}/alunos`, dadosDoForm)
 
         alert("Aluno cadastrado com sucesso!")
 

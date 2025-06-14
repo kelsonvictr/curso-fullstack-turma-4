@@ -9,7 +9,7 @@ const ListarAlunos = () => {
 
     useEffect(() => {
         axios.get(`${urlDoBackend}/alunos`)
-        .then(response => { setAlunos(response.data) })
+        .then(response =>  setAlunos(response.data) )
         .catch(error => console.error("Houve um erro para obter a listagem de alunos: ", error));
     }, [])
 
